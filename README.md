@@ -1,4 +1,4 @@
-### To learn CI/CD using Jenkins in Docker with Pipelines
+### Learn CI/CD using Jenkins in Docker with Pipelines
 
 ### 1. **Setting Up Jenkins Using Docker**
    - **Install Jenkins**: 
@@ -7,11 +7,11 @@
 	
    - **Validate Docker**: You can see below
 	 
-     - docker images
+     docker images
 		
-	jenkins/jenkins                           lts                                                                           01ccf53ac680   2 weeks ago     779MB
+		jenkins/jenkins                           lts                                                                           01ccf53ac680   2 weeks ago     779MB
 		
-     - docker ps -a 
+	 docker ps -a 
 
 		jenkins/jenkins:lts        "/usr/bin/tini -- /u…"   32 hours ago   Up 5 minutes                 0.0.0.0:50000->50000/tcp, 0.0.0.0:8090->8080/tcp   jenkins
 
