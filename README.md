@@ -9,14 +9,14 @@
 	 
      - docker images
 		
-		jenkins/jenkins                           lts                                                                           01ccf53ac680   2 weeks ago     779MB
-	
-	- docker ps -a 
+	jenkins/jenkins                           lts                                                                           01ccf53ac680   2 weeks ago     779MB
+		
+     - docker ps -a 
 
 		jenkins/jenkins:lts        "/usr/bin/tini -- /u…"   32 hours ago   Up 5 minutes                 0.0.0.0:50000->50000/tcp, 0.0.0.0:8090->8080/tcp   jenkins
 
    - **Start Jenkins**: After installation 
-     - Visit Jenkins UI at http://localhost:8090 (this port you can change in docker-compose/yaml file)
+     - Visit Jenkins UI at http://localhost:8090 (this port you can change in docker-compose.yaml file)
 
    - **Install Plugins**: Jenkins is extensible, and many plugins are required for various integrations. For pipelines, the **Pipeline plugin** should be installed.
 

@@ -12,9 +12,9 @@ pipeline {
             steps {
                 // Checkout the Java code from the GitHub repository
                 sh '''
-				rm -rf jenkinjava
-				git clone https://github.com/kkpant75/jenkinjava.git
-				'''
+                rm -rf jenkinjava
+                git clone https://github.com/kkpant75/jenkinjava.git
+                '''
             }
         }
 
@@ -24,9 +24,9 @@ pipeline {
                 script {
                     // Assuming your Java code is in the 'src' directory
                     sh '''
-					cd jenkinjava;
-					javac HelloFromJenkin.java
-					'''  // Adjust path to your Java files
+                    cd jenkinjava;
+                    javac HelloFromJenkin.java
+                    '''  // Adjust path to your Java files
                 }
             }
         }
@@ -37,9 +37,9 @@ pipeline {
                 script {
                     // Assuming HelloFromJenkin.class is generated in the 'src' folder
                     sh '''
-					cd jenkinjava;
-					java  HelloFromJenkin
-					'''
+                    cd jenkinjava;
+                    java  HelloFromJenkin
+                    '''
                 }
             }
         }
