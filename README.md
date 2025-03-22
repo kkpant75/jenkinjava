@@ -31,5 +31,4 @@
 
    3. **Monitor the Pipeline**: After starting the pipeline, Jenkins will display the progress in each stage of the pipeline. You can monitor logs and check for errors directly from the Jenkins UI.
 
-
-   - **Triggers**: You can set triggers like GitHub webhook integration or time-based triggers for running pipelines automatically when a push happens to your repository or on a scheduled basis.
+   4. **Triggers**: You can set triggers like GitHub webhook integration or time-based triggers for running pipelines automatically when a push happens to your repository or on a scheduled basis.
