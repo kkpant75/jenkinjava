@@ -5,7 +5,8 @@
 		
 		docker-compose up --build
 	
-	- **Validate Docker**: You can see below
+   - **Validate Docker**: You can see below
+	 
      - docker images
 		
 		jenkins/jenkins                           lts                                                                           01ccf53ac680   2 weeks ago     779MB
